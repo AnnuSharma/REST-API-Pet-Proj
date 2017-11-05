@@ -1,0 +1,341 @@
+02-Sep-2017 17:44:30.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+02-Sep-2017 17:44:30.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+02-Sep-2017 17:44:30.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+02-Sep-2017 17:44:30.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Sep-2017 17:44:30.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+02-Sep-2017 17:44:30.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Sep-2017 17:44:30.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+02-Sep-2017 17:44:30.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+02-Sep-2017 17:44:30.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Sep-2017 17:44:30.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 17:44:30.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 17:44:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/conf/logging.properties
+02-Sep-2017 17:44:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Sep-2017 17:44:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Sep-2017 17:44:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Sep-2017 17:44:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 17:44:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 17:44:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/temp
+02-Sep-2017 17:44:30.403 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/annusharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Sep-2017 17:44:30.530 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 17:44:30.558 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 17:44:30.563 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 17:44:30.565 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 17:44:30.565 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 651 ms
+02-Sep-2017 17:44:30.599 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Sep-2017 17:44:30.599 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+02-Sep-2017 17:44:30.629 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war]
+02-Sep-2017 17:44:32.866 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Sep-2017 17:44:33.040 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.1.19 ( 20130213-1512 https://svn.java.net/svn/mojarra~svn/tags/2.1.19@11614) for context '/Backend'
+02-Sep-2017 17:44:33.123 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+17:44:33.387 [localhost-startStop-1] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+17:44:33.392 [localhost-startStop-1] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+17:44:33.434 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+17:44:33.436 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+17:44:33.440 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+17:44:33.442 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+17:44:33.443 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+17:44:33.443 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+02-Sep-2017 17:44:33.740 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war] has finished in [3,111] ms
+02-Sep-2017 17:44:33.741 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs]
+02-Sep-2017 17:44:33.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs] has finished in [15] ms
+02-Sep-2017 17:44:33.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples]
+02-Sep-2017 17:44:34.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples] has finished in [310] ms
+02-Sep-2017 17:44:34.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager]
+02-Sep-2017 17:44:34.093 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager] has finished in [26] ms
+02-Sep-2017 17:44:34.093 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager]
+02-Sep-2017 17:44:34.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager] has finished in [22] ms
+02-Sep-2017 17:44:34.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT]
+02-Sep-2017 17:44:34.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT] has finished in [16] ms
+02-Sep-2017 17:44:34.136 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 17:44:34.146 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 17:44:34.149 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3583 ms
+02-Sep-2017 17:50:13.314 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Sep-2017 17:50:13.316 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 17:50:13.373 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 17:50:13.429 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Sep-2017 17:50:13.484 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 17:50:13.487 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 17:50:13.489 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 17:50:13.490 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Listening for transport dt_socket at address: 8000
+02-Sep-2017 18:17:19.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+02-Sep-2017 18:17:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+02-Sep-2017 18:17:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+02-Sep-2017 18:17:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Sep-2017 18:17:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+02-Sep-2017 18:17:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Sep-2017 18:17:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+02-Sep-2017 18:17:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+02-Sep-2017 18:17:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Sep-2017 18:17:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:17:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:17:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/conf/logging.properties
+02-Sep-2017 18:17:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Sep-2017 18:17:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Sep-2017 18:17:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Sep-2017 18:17:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=localhost:8000,server=y,suspend=n
+02-Sep-2017 18:17:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:17:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:17:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/temp
+02-Sep-2017 18:17:19.502 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/annusharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Sep-2017 18:17:19.655 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:17:19.681 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 18:17:19.683 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:17:19.685 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 18:17:19.686 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 626 ms
+02-Sep-2017 18:17:19.718 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Sep-2017 18:17:19.719 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+02-Sep-2017 18:17:19.744 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war]
+02-Sep-2017 18:17:19.770 INFO [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Sep-2017 18:17:22.128 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Sep-2017 18:17:22.334 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.1.19 ( 20130213-1512 https://svn.java.net/svn/mojarra~svn/tags/2.1.19@11614) for context '/Backend'
+02-Sep-2017 18:17:22.417 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+18:17:22.700 [localhost-startStop-1] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+18:17:22.706 [localhost-startStop-1] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+18:17:22.757 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+18:17:22.760 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+18:17:22.766 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+18:17:22.768 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+18:17:22.769 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+18:17:22.769 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+02-Sep-2017 18:17:23.194 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war] has finished in [3,449] ms
+02-Sep-2017 18:17:23.197 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs]
+02-Sep-2017 18:17:23.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs] has finished in [27] ms
+02-Sep-2017 18:17:23.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples]
+02-Sep-2017 18:17:23.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples] has finished in [420] ms
+02-Sep-2017 18:17:23.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager]
+02-Sep-2017 18:17:23.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager] has finished in [36] ms
+02-Sep-2017 18:17:23.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager]
+02-Sep-2017 18:17:23.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager] has finished in [23] ms
+02-Sep-2017 18:17:23.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT]
+02-Sep-2017 18:17:23.723 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT] has finished in [21] ms
+02-Sep-2017 18:17:23.730 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:17:23.739 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:17:23.741 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4054 ms
+02-Sep-2017 18:22:53.937 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Sep-2017 18:22:53.938 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:22:53.992 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:22:54.047 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Sep-2017 18:22:54.104 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:22:54.107 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:22:54.108 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:22:54.110 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Listening for transport dt_socket at address: 8000
+02-Sep-2017 18:23:06.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+02-Sep-2017 18:23:06.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+02-Sep-2017 18:23:06.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+02-Sep-2017 18:23:06.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Sep-2017 18:23:06.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+02-Sep-2017 18:23:06.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Sep-2017 18:23:06.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+02-Sep-2017 18:23:06.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+02-Sep-2017 18:23:06.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Sep-2017 18:23:06.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:23:06.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:23:06.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/conf/logging.properties
+02-Sep-2017 18:23:06.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Sep-2017 18:23:06.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Sep-2017 18:23:06.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Sep-2017 18:23:06.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=localhost:8000,server=y,suspend=n
+02-Sep-2017 18:23:06.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:23:06.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:23:06.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/temp
+02-Sep-2017 18:23:06.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/annusharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Sep-2017 18:23:07.034 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:23:07.063 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 18:23:07.067 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:23:07.068 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 18:23:07.069 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 653 ms
+02-Sep-2017 18:23:07.099 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Sep-2017 18:23:07.099 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+02-Sep-2017 18:23:07.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war]
+02-Sep-2017 18:23:07.154 INFO [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Sep-2017 18:23:09.703 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Sep-2017 18:23:09.905 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.1.19 ( 20130213-1512 https://svn.java.net/svn/mojarra~svn/tags/2.1.19@11614) for context '/Backend'
+02-Sep-2017 18:23:10.003 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+18:23:10.312 [localhost-startStop-1] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+18:23:10.319 [localhost-startStop-1] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+18:23:10.355 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+18:23:10.357 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+18:23:10.362 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+18:23:10.369 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+18:23:10.369 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+18:23:10.369 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+02-Sep-2017 18:23:10.734 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war] has finished in [3,606] ms
+02-Sep-2017 18:23:10.735 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs]
+02-Sep-2017 18:23:10.752 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs] has finished in [17] ms
+02-Sep-2017 18:23:10.753 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples]
+02-Sep-2017 18:23:10.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples] has finished in [218] ms
+02-Sep-2017 18:23:10.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager]
+02-Sep-2017 18:23:11.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager] has finished in [31] ms
+02-Sep-2017 18:23:11.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager]
+02-Sep-2017 18:23:11.025 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager] has finished in [23] ms
+02-Sep-2017 18:23:11.025 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT]
+02-Sep-2017 18:23:11.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT] has finished in [14] ms
+02-Sep-2017 18:23:11.044 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:23:11.054 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:23:11.056 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3986 ms
+02-Sep-2017 18:24:21.576 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Backend]
+02-Sep-2017 18:24:21.581 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected exception when attempting to tear down the Mojarra runtime
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend/WEB-INF/lib/classmate-1.3.3.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2167)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at com.sun.faces.config.ConfigureListener.contextDestroyed(ConfigureListener.java:318)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4790)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1437)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1363)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1623)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend/WEB-INF/lib/classmate-1.3.3.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+02-Sep-2017 18:26:50.153 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Sep-2017 18:26:50.154 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:26:50.211 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:26:50.268 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Sep-2017 18:26:50.305 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:26:50.309 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:26:50.311 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:26:50.312 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Listening for transport dt_socket at address: 8000
+02-Sep-2017 18:26:53.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+02-Sep-2017 18:26:53.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+02-Sep-2017 18:26:53.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+02-Sep-2017 18:26:53.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Sep-2017 18:26:53.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+02-Sep-2017 18:26:53.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Sep-2017 18:26:53.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+02-Sep-2017 18:26:53.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+02-Sep-2017 18:26:53.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Sep-2017 18:26:53.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:26:53.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:26:53.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/conf/logging.properties
+02-Sep-2017 18:26:53.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Sep-2017 18:26:53.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Sep-2017 18:26:53.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Sep-2017 18:26:53.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=localhost:8000,server=y,suspend=n
+02-Sep-2017 18:26:53.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:26:53.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 18:26:53.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/temp
+02-Sep-2017 18:26:53.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/annusharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Sep-2017 18:26:53.434 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:26:53.460 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 18:26:53.463 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:26:53.465 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 18:26:53.466 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 632 ms
+02-Sep-2017 18:26:53.497 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Sep-2017 18:26:53.497 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+02-Sep-2017 18:26:53.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war]
+02-Sep-2017 18:26:56.020 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Sep-2017 18:26:56.256 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.1.19 ( 20130213-1512 https://svn.java.net/svn/mojarra~svn/tags/2.1.19@11614) for context '/Backend'
+02-Sep-2017 18:26:56.339 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+18:26:56.594 [localhost-startStop-1] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+18:26:56.599 [localhost-startStop-1] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+18:26:56.627 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+18:26:56.629 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+18:26:56.633 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+18:26:56.635 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+18:26:56.635 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+18:26:56.635 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+02-Sep-2017 18:26:56.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war] has finished in [3,435] ms
+02-Sep-2017 18:26:56.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs]
+02-Sep-2017 18:26:56.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs] has finished in [19] ms
+02-Sep-2017 18:26:56.981 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples]
+02-Sep-2017 18:26:57.197 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples] has finished in [216] ms
+02-Sep-2017 18:26:57.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager]
+02-Sep-2017 18:26:57.226 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager] has finished in [28] ms
+02-Sep-2017 18:26:57.226 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager]
+02-Sep-2017 18:26:57.249 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager] has finished in [22] ms
+02-Sep-2017 18:26:57.249 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT]
+02-Sep-2017 18:26:57.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT] has finished in [16] ms
+02-Sep-2017 18:26:57.271 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:26:57.282 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:26:57.286 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3819 ms
+02-Sep-2017 18:27:27.465 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Sep-2017 18:27:27.466 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:27:27.520 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:27:27.572 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Sep-2017 18:27:27.626 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:27:27.630 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 18:27:27.632 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 18:27:27.633 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Listening for transport dt_socket at address: 8000
+02-Sep-2017 19:33:03.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+02-Sep-2017 19:33:03.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 19:33:03.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 19:33:03.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/conf/logging.properties
+02-Sep-2017 19:33:03.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Sep-2017 19:33:03.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Sep-2017 19:33:03.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Sep-2017 19:33:03.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=localhost:8000,server=y,suspend=n
+02-Sep-2017 19:33:03.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 19:33:03.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20
+02-Sep-2017 19:33:03.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/temp
+02-Sep-2017 19:33:03.469 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/annusharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Sep-2017 19:33:03.612 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 19:33:03.640 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 19:33:03.645 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 19:33:03.647 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Sep-2017 19:33:03.648 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 703 ms
+02-Sep-2017 19:33:03.686 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Sep-2017 19:33:03.686 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+02-Sep-2017 19:33:03.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war]
+02-Sep-2017 19:33:03.765 INFO [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Sep-2017 19:33:06.453 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Sep-2017 19:33:06.750 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.1.19 ( 20130213-1512 https://svn.java.net/svn/mojarra~svn/tags/2.1.19@11614) for context '/Backend'
+02-Sep-2017 19:33:06.863 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+19:33:07.128 [localhost-startStop-1] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+19:33:07.133 [localhost-startStop-1] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+19:33:07.168 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+19:33:07.170 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+19:33:07.174 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+19:33:07.176 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+19:33:07.177 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+19:33:07.177 [localhost-startStop-1] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+02-Sep-2017 19:33:07.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/Backend.war] has finished in [3,737] ms
+02-Sep-2017 19:33:07.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs]
+02-Sep-2017 19:33:07.475 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/docs] has finished in [15] ms
+02-Sep-2017 19:33:07.475 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples]
+02-Sep-2017 19:33:07.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/examples] has finished in [290] ms
+02-Sep-2017 19:33:07.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager]
+02-Sep-2017 19:33:07.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/host-manager] has finished in [25] ms
+02-Sep-2017 19:33:07.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager]
+02-Sep-2017 19:33:07.815 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/manager] has finished in [24] ms
+02-Sep-2017 19:33:07.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT]
+02-Sep-2017 19:33:07.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/annusharma/Documents/petProj/apache-tomcat-8.5.20/webapps/ROOT] has finished in [16] ms
+02-Sep-2017 19:33:07.838 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Sep-2017 19:33:07.851 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Sep-2017 19:33:07.855 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4207 ms

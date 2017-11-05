@@ -1,0 +1,15 @@
+package backend.entity;
+
+import org.springframework.data.annotation.Id;
+
+public class ProjectEntity {
+	@Id 
+	private long id;
+	private String name;
+	
+	public ProjectEntity(long id, String name){
+		this.id = id;
+		this.name = name;
+	}
+
+}

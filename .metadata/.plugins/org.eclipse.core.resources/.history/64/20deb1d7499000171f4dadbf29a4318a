@@ -1,0 +1,7 @@
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import backend.resource.ProjectResource;
+
+public interface ProjectRepository extends MongoRepository<ProjectResource, String> {
+
+}

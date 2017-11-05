@@ -1,0 +1,9 @@
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+
+import backend.resource.ProjectResource;
+
+@RepositoryRestResource(collectionResourceRel = "projects", path = "projects")
+public interface ProjectRepository extends MongoRepository<ProjectResource, String> {
+	List<ProjectResource> findByName()
+}

@@ -1,0 +1,11 @@
+package backend.main;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+public class CentralProcessingUnit {
+	@SpringBootApplication
+	public static void main(String[] args) {
+
+	}
+
+}

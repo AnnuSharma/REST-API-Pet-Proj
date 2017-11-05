@@ -1,0 +1,11 @@
+package backend.resource;
+
+public class DataResource {
+	private final long id;
+	private final String name;
+	
+	public DataResource(long id, String name){
+		this.id = id;
+		this.name = name;
+	}
+}

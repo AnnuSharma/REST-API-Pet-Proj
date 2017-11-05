@@ -1,0 +1,10 @@
+package backend.main;
+
+public class CentralProcessingUnit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
